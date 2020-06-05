@@ -1,0 +1,543 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        overflow-x: hidden;
+        font-family: 'Roboto Cn', sans-serif;
+        text-rendering: optimizeLegibility !important;
+        -webkit-font-smoothing: antialiased !important;
+    }
+    
+    li {
+        list-style: none;
+        display: inline-block
+    }
+    
+    a {
+        text-decoration: none;
+        color: #eee;
+        transition: all 500ms ease-in-out;
+    }
+    
+    a:hover,
+    a:active {
+        text-decoration: none;
+    }
+    
+    h1,
+    h2,
+    h4 {
+        font-family: 'Lucida Console', Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .header p {
+        font-size: 25px;
+        line-height: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .btn {
+        transition: all 300ms ease-in-out;
+        font-weight: 500 !important;
+        text-transform: uppercase;
+        padding-left: 20px;
+    }
+    
+    .btn:hover {
+        background-color: #ededed !important;
+        color: #3c3c3c !important;
+        border: 1px solid #fff !important;
+    }
+    /*NAVIGATION*/
+    
+    .navbar {
+        background-color: #222222 !important;
+        text-transform: uppercase;
+        font-family: 'PT Sans Narrow', Arial, sans-serif;
+        font-weight: 700;
+    }
+    
+    .navbar a {
+        color: #fff !important;
+        opacity: 0.7;
+    }
+    
+    .navbar a:hover {
+        opacity: 1;
+    }
+    /*HEADER*/
+    
+    .header {
+        height: 730px;
+        width: 100%;
+        padding: 50px 0 30px;
+        margin-top: 50px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)), url(http://4.bp.blogspot.com/-LrSScY-_UGg/VXdAforHQfI/AAAAAAAAFzA/XW4Plyr000s/s640/facebook-timeline-cover-girls-baby-girl-in-pink-jacket.jpg) center no-repeat;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+    
+    .header h1 {
+        font-size: 45px;
+        font-weight: 700;
+        padding-top: 20px;
+    }
+    
+    .fancyy span {
+        color: fuchsia;
+    }
+    
+    .header h1,
+    .header p,
+    .header a {
+        margin-top: 30px;
+    }
+    
+    .header a {
+        background-color: hotpink;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.6;
+        transition: 0.7s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    @media(max-width:768px) {
+        .header {
+            padding: 30px;
+            height: 750px;
+        }
+        .header h1 {
+            font-size: 24px;
+        }
+        .header p {
+            font-size: 20px;
+        }
+    }
+    /*SERVICES*/
+    
+    .services {
+        padding: 50px 0 30px;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(https://scoopempire.com/wp-content/uploads/2017/05/05_KLK-Photography_Ritz-Carlton-2016i.jpg) center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .services h2 {
+        color: white;
+        margin: 20px 0 20px;
+    }
+    
+    .services p {
+        color: white;
+        background-color: rgba(0, 0, 0, .5);
+        font-size: 15px;
+    }
+    
+    .inner {
+        overflow: hidden;
+    }
+    
+    .inner img {
+        transition: all 1.5s ease;
+    }
+    
+    .inner:hover img {
+        transform: scale(1.5);
+    }
+    
+    .services input {
+        border: 3px solid;
+        padding: 5px 20px;
+        border-radius: 50px;
+        width: 200px;
+        position: absolute;
+    }
+    
+    .services button {
+        border: 3px solid color transparent;
+        background-color: transparent;
+        position: absolute;
+        left: 26%;
+        height: 2px;
+        padding: 0px;
+    }
+    
+    .services i {
+        color: white;
+        background-color: transparent;
+        font-weight: 700;
+        position: absolute;
+        left: 26%;
+        height: 10px;
+        padding: 0px;
+        font-size: 20px;
+    }
+    
+    .button {
+        background-color: hotpink;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.6;
+        transition: 0.7s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .button:hover {
+        opacity: 3
+    }
+    
+    @media(max-width:768px) {
+        .services {
+            padding: 30px;
+        }
+    }
+    /*PRICING*/
+    
+    .pricing {
+        padding: 50px 0 80px;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://previews.123rf.com/images/maya23k/maya23k1801/maya23k180100534/94217524-pink-spring-flowers-on-wooden-background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .pricing h2,
+    .pricing p {
+        color: #fff;
+    }
+    
+    .pricing p {
+        padding-bottom: 40px;
+    }
+    
+    .pricing .packages {
+        padding: 30px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    
+    .packages li {
+        display: block;
+        padding: 5px;
+    }
+    
+    .packages h4,
+    .packages h1,
+    .packages b {
+        color: #4c4c4c;
+    }
+    
+    .packages p,
+    .packages li {
+        color: #737373;
+    }
+    
+    .packages button {
+        margin-top: 15px;
+    }
+    
+    .button {
+        background-color: hotpink;
+        border: none;
+        color: white;
+        padding: 13px 18px;
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.6;
+        transition: 0.7s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .button:hover {
+        opacity: 3
+    }
+    
+    @media(max-width:768px) {
+        .pricing {
+            padding: 30px;
+        }
+        .packages {
+            width: 80%;
+            margin-left: 25px;
+        }
+    }
+    /*TEAM*/
+    
+    .team {
+        padding: 50px 0 80px;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url(https://cdn.hipwallpaper.com/i/55/90/YcjsfN.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .me {
+        color: white;
+        font-size: 26px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+    
+    .team b,
+    .team h2,
+    .team h3,
+    .team p {
+        margin: 20px 0 20px;
+        color: #fff;
+    }
+    
+    .team b {
+        font-size: 20px;
+    }
+    
+    .team img {
+        height: 150px;
+        width: 150px;
+        margin-top: 80px;
+    }
+    
+    .team i {
+        height: 40px;
+        width: 40px;
+        padding: 6px;
+        font-size: 28px;
+        border-radius: 50%;
+        background-color: rgb(16, 212, 65);
+        color: #fff;
+    }
+    
+    .team a:hover i {
+        background-color: #709963;
+    }
+    /*CLINTS*/
+    
+    .clients {
+        padding: 50px 0 80px;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, .1)), url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BY_C4HK2it5ls6ul/top-view-of-dried-flowers-with-christmas-lights-on-wooden-table-background_syw_jx8zx_thumbnail-full01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .clients h2 {
+        color: white;
+    }
+    
+    .clients p {
+        color: white;
+        padding-bottom: 40px;
+    }
+    
+    .clients img {
+        width: 200px;
+        opacity: 0.6;
+        cursor: pointer;
+        margin: 40px 0;
+        transition: all 500ms ease-in-out;
+    }
+    
+    .clients li:hover img {
+        opacity: 1;
+    }
+    /*CONTACT*/
+    
+    .contact {
+        padding: 50px 0 80px;
+        text-align: center;
+        padding: 50px 0 40px;
+        text-align: center;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://pixel.nymag.com/imgs/fashion/daily/2018/03/08/summer-weddings/reception-venues/3.nocrop.w710.h2147483647.2x.jpg) center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .contact p {
+        padding-bottom: 80px;
+        color: white;
+    }
+    
+    .contact h2,
+    h4 {
+        color: white;
+        margin: 20px 0 20px;
+    }
+    
+    .contact .input-group {
+        margin-bottom: 25px;
+    }
+    
+    .contact .form-control {
+        border-radius: 0 !important;
+    }
+    
+    .contact span {
+        border-radius: 0 !important;
+    }
+    
+    .contact .btn {
+        border-radius: 1px;
+        width: 100%;
+        font-size: 15px;
+        background-color: fuchsia;
+        color: #fff;
+    }
+    
+    .contact .btn:hover {
+        background-color: #FF69B4 !important;
+        color: #fff !important;
+    }
+    /*FOOTER*/
+    
+    .footer {
+        padding: 30px;
+        color: #cccccc;
+        background-color: #222222;
+    }
+    
+    .footer .social {
+        font-size: 20px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #cccccc;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    
+    .footer input {
+        height: 40px;
+        width: 160px;
+        padding: 5px;
+        border: none;
+        background-color: #cccccc;
+        color: #000;
+    }
+    
+    .footer .btn {
+        padding: 10px 5px 10px;
+        margin: -3px 0 0 5px;
+    }
+    /*VIEW*/
+    
+    .View {
+        padding: 50px 0 30px;
+        height: 900px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(https://as1.ftcdn.net/jpg/00/95/71/98/500_F_95719850_IRQ77cVTcu7M2K6UbDStbdNQKUWWNF9W.jpg) center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-style: bold;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black !important;
+    }
+    
+    .newarrival {
+        background-color: rgb(8, 196, 39);
+        width: 50px;
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .star {
+        height: 30px;
+    }
+    
+    del {
+        color: rgb(248, 79, 79);
+        height: 8px;
+        font-style: oblique;
+    }
+    
+    .price {
+        color: #FE980F;
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    
+    .button {
+        background-color: hotpink;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        font-size: 20px;
+        opacity: 0.6;
+        transition: 0.7s;
+        display: inline-block;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /*CART*/
+    
+    .cart {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(https://ak.picdn.net/shutterstock/videos/14463694/thumb/1.jpg) center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 900px;
+        width: 100%;
+        color: white;
+    }
+    
+    .table img {
+        height: 90px;
+        width: 80px;
+    }
+    
+    .table {
+        border-color: purple !important;
+        border-radius: 5px;
+    }
+    
+    .table tr td {
+        vertical-align: middle;
+    }
+    
+    .container h2 {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    
+    .container .btn {
+        margin: 10px;
+    }
+    
+    .container .btn:hover {
+        background-color: #FF69B4 !important;
+        color: #fff !important;
+    }
